@@ -21,13 +21,13 @@ def add_task(tasks, title, description,due_date):
         "completed": False
     }
     tasks.append(task)
-    print("Task added successfully")
+    print("Task added successfully!")
     
 def mark_task_as_complete(tasks,task_number):
     if 1 <= task_number <= len(tasks):
      
         tasks[task_number -1]["completed"] = True 
-        print("Task marked as complete")
+        print("Task marked as complete!")
     else:
         print("Task not found")
 
