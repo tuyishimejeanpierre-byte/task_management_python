@@ -15,9 +15,9 @@ def add_task(tasks, title, description,due_date):
         print("invalid due date. use YYY-MM_DD")
         return
     task = {
-        "title": "Groceries",
-        "description": "Shop at Market Basket for food", 
-        "due_date": "2024-06-26",
+        "title": title,
+        "description": description, 
+        "due_date": due_date,
         "completed": False
     }
     tasks.append(task)
